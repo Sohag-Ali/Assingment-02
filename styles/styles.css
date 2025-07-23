@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.secendary-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -16,10 +28,11 @@
   display: none;
 }
 
+/* ...................navbar styles ................................. */
 .navbar {
   justify-content: space-between;
   margin-top: 30px;
-  padding: 0px 32px;
+   padding: 0px 32px;
 }
 
 .nav-imag img {
@@ -56,7 +69,48 @@
   text-decoration: none;
 }
 
+/* ........................bannner........................ */
+
+
+.banner {
+    margin-top: 109px;
+     padding: 0px 32px;
+}
+.banner-section {
+  justify-content: space-between;
+  align-items: end;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content h1{
+    color: #000000;
+    font-weight: bold;
+    font-size: 4.06rem;
+    margin-bottom: 13px;
+}
+.banner-content h1 span{
+    color: #E95A08;
+    font-weight: bold;
+    font-size: 4.06rem;
+}
+.banner-content p{
+    font-size: 1.375rem;
+}
+.banner-image{
+  width: 50%;
+}
+.banner-image img{
+  width: 100%;
+}
+
+
+
+
+
 @media screen and (max-width: 576px) {
+
+    /* ..............navbaar for mobile ............ */
   .nav-imag img {
     width: 63px;
     height: 38px;
@@ -85,4 +139,35 @@
   .nav-link-cart a {
     text-decoration: none;
   }
+
+
+  /* .........bnner for mobile .......... */
+
+  .banner {
+    margin-top: 28px;
+    padding: 0px 0px
+}
+.banner-section {
+    flex-direction: column-reverse;
+  justify-content: space-between;
+  gap: 28px;
+}
+.banner-content {
+  width: 100%;
+  padding: 0px 16px;
+}
+.banner-content h1{
+    font-size: 1.5rem;
+}
+.banner-content h1 span{
+    font-size: 1.5rem;
+}
+.banner-content p{
+    font-size: 0.8rem;
+}
+.banner-image{
+  width: 100%;
+}
+
+
 }
