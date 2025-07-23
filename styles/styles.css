@@ -350,6 +350,53 @@
 }
 
 
+/* ......................Join the colorful................. */
+
+.join-section {
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 199px;
+    padding-bottom: 193px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.join-section h1 {
+    font-size: 3.125rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+.join-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+}
+.join-email input {
+    width: 75%;
+    padding:19px 0px 15.5px 20px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn-j {
+     background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 19px 53.5px;
+    font-weight: semi-bold;
+    text-decoration: none;
+    border: none;
+    width: 25%;
+}
+
+
 @media screen and (max-width: 576px) {
 
     /* ..............navbaar for mobile ............ */
@@ -523,6 +570,40 @@
 .deal-zabo a {
     font-size: 1rem;
 }
+
+/* .............join section for mobile............ */
+
+.join-section {
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 110.5px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+.join-section h1 {
+    font-size: 1.25rem;
+}
+.join-email {
+    width: 75%;
+}
+.join-email input {
+    width: 70%;
+    padding:15.5px 0px 15.5px 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn-j {
+    padding: 19px 12px;
+    width: 30%;
+
+}
+
 
 
 }
