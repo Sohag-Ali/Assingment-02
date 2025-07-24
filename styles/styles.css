@@ -203,6 +203,17 @@ body {
   padding: 0px 32px;
   justify-content: space-between;
   gap: 60px;
+  position: relative;
+}
+.badge-image {
+  position: absolute;
+  top: -22%;
+  left: 17%;
+  transform: translateX(17%);
+}
+.badge-image img{
+  width: 30%;
+  height:30%;
 }
 .lover-image {
   width: 50%;
@@ -558,7 +569,14 @@ body {
     justify-content: space-between;
     flex-direction: column;
     gap: 18px;
+    position: static;
   }
+  .badge-image {
+  position: absolute;
+  top: 80px;
+  right: 875px;
+  display: none;
+}
   .lover-image {
     width: 100%;
   }
