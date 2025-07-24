@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #f5f8ff;
 }
 
 .inter {
@@ -19,8 +21,7 @@
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 .secendary-gray {
@@ -42,7 +43,7 @@
 .navbar {
   justify-content: space-between;
   margin-top: 30px;
-   padding: 0px 32px;
+  padding: 0px 32px;
 }
 
 .nav-imag img {
@@ -81,10 +82,9 @@
 
 /* ........................bannner........................ */
 
-
 .banner {
-    margin-top: 109px;
-     padding: 0px 32px;
+  margin-top: 109px;
+  padding: 0px 32px;
 }
 .banner-section {
   justify-content: space-between;
@@ -93,24 +93,24 @@
 .banner-content {
   width: 50%;
 }
-.banner-content h1{
-    color: #000000;
-    font-weight: bold;
-    font-size: 4.06rem;
-    margin-bottom: 13px;
+.banner-content h1 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 4.06rem;
+  margin-bottom: 13px;
 }
-.banner-content h1 span{
-    color: #E95A08;
-    font-weight: bold;
-    font-size: 4.06rem;
+.banner-content h1 span {
+  color: #e95a08;
+  font-weight: bold;
+  font-size: 4.06rem;
 }
-.banner-content p{
-    font-size: 1.375rem;
+.banner-content p {
+  font-size: 1.375rem;
 }
-.banner-image{
+.banner-image {
   width: 50%;
 }
-.banner-image img{
+.banner-image img {
   width: 100%;
 }
 
@@ -118,10 +118,10 @@
 
 .plants-section {
   margin-top: 120px;
-  padding: 0px 32px; 
+  padding: 0px 32px;
 }
 .plants-content {
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
@@ -132,21 +132,21 @@
   font-weight: bold;
   text-align: center;
 }
-.plants-content h1 span{
-  color: #E95A08;
+.plants-content h1 span {
+  color: #e95a08;
   text-align: center;
 }
-.plants-content p{
+.plants-content p {
   width: 74%;
   text-align: center;
   font-size: 1.375rem;
 }
 
 .caard-contaainer {
-    margin-top: 49px;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
+  margin-top: 49px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
 }
 .plants-card-container {
   display: grid;
@@ -157,10 +157,10 @@
   width: 100%;
 }
 .plants-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 .plants-card-price {
   display: flex;
@@ -182,27 +182,26 @@
   text-align: center;
 }
 .btn-praimry {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 .btn {
-    background-color: #E95A08;
-    color: #FFFFFF;
-    padding: 19px 80px;
-    font-weight: semi-bold;
-    text-decoration: none;
-    border: none;
-    width: 100%;
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 19px 80px;
+  font-weight: semi-bold;
+  text-decoration: none;
+  border: none;
+  width: 100%;
 }
-
 
 /* .................flower and plants lover .................. */
 
 .Plants-lover-section {
-    margin-top: 210px;
-    padding: 0px 32px;
-    justify-content: space-between;
-    gap: 60px;
+  margin-top: 210px;
+  padding: 0px 32px;
+  justify-content: space-between;
+  gap: 60px;
 }
 .lover-image {
   width: 50%;
@@ -218,14 +217,14 @@
 .plants-lover-content h1 {
   font-size: 3.125rem;
   font-weight: bold;
-    color: #000000;
-    margin-bottom: 20px;
+  color: #000000;
+  margin-bottom: 20px;
 }
 
-.plants-lover-content ul{
-    padding-left: 32px;
+.plants-lover-content ul {
+  padding-left: 32px;
 }
-.plants-lover-content ul>li {
+.plants-lover-content ul > li {
   font-size: 1.375rem;
   margin-bottom: 20px;
 }
@@ -238,168 +237,217 @@
   margin-bottom: 120px;
 }
 .deals-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 .deals-content h1 {
-    font-size: 3.125rem;
-    color: #000000;
-    font-weight: bold;
-    text-align: center;
+  font-size: 3.125rem;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
 }
 .deals-content span {
-    color: #E95A08;
+  color: #e95a08;
 }
 .deals-content p {
-    width: 74%;
-    text-align: center;
-    font-size: 1.375rem;
-    /* margin-top: 16px; */
+  width: 74%;
+  text-align: center;
+  font-size: 1.375rem;
+  /* margin-top: 16px; */
 }
-
 
 .deals-card-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 28px;
-    margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 120px;
 }
 .deals-card-left {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 25px;
-    width: 35%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 25px;
+  width: 35%;
 }
 .deals-card-right {
-    width: 70%;
+  width: 70%;
 }
 
 .deal-bloom {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-bloom.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    border-radius: 8px;
-    padding: 60px 48.5px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 8px;
+  padding: 60px 48.5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .deal-bloom h1 {
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .deal-bloom a {
-    color: #FFFFFF;
-    font-weight: semi-bold;
-    text-align: center;
+  color: #ffffff;
+  font-weight: semi-bold;
+  text-align: center;
 }
 .deal-ana {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-ana.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    border-radius: 8px;
-    padding: 60px 48.5px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-ana.png);
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 8px;
+  padding: 60px 48.5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .deal-ana h1 {
-    font-size: 1.25rem;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .deal-ana a {
-    color: #FFFFFF;
-    font-weight: semi-bold;
-    text-align: center;
+  color: #ffffff;
+  font-weight: semi-bold;
+  text-align: center;
 }
 
 .deal-zabo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/deal-zabo.png);
-    background-repeat: no-repeat;
-    width: 100%;
-    border-radius: 8px;
-    padding: 172px 127.5px 151px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 8px;
+  padding: 172px 127.5px 151px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .deal-zabo h1 {
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .deal-zabo a {
-    color: #FFFFFF;
-    font-weight: semi-bold;
-    text-align: center;
-    font-size: 1.75rem;
+  color: #ffffff;
+  font-weight: semi-bold;
+  text-align: center;
+  font-size: 1.75rem;
 }
-
 
 /* ......................Join the colorful................. */
 
 .join-section {
-    background-image: url(../assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    padding-top: 199px;
-    padding-bottom: 193px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    gap: 23px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 199px;
+  padding-bottom: 193px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
 }
 .join-section h1 {
-    font-size: 3.125rem;
-    color: #FFFFFF;
-    font-weight: bold;
-    text-align: center;
+  font-size: 3.125rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
 }
 .join-email {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
 }
 .join-email input {
-    width: 75%;
-    padding:19px 0px 15.5px 20px;
-    border: none;
-    color: rgba(0, 0, 0, 0.5);
+  width: 75%;
+  padding: 19px 0px 15.5px 20px;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
 }
 .btn-j {
-     background-color: #E95A08;
-    color: #FFFFFF;
-    padding: 19px 53.5px;
-    font-weight: semi-bold;
-    text-decoration: none;
-    border: none;
-    width: 25%;
+  background-color: #e95a08;
+  color: #ffffff;
+  padding: 19px 53.5px;
+  font-weight: semi-bold;
+  text-decoration: none;
+  border: none;
+  width: 25%;
+}
+
+/* ..........foooter............ */
+
+.footer-section {
+  padding: 0px 32px;
+  margin-bottom: 50px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 16px;
+  width: 25%;
+}
+.footer-content img {
+  width: 37.5%;
+}
+.footer-content p {
+  font-size: 1.125rem;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.footer-link a {
+  text-decoration: none;
+  color: #818794;
+}
+
+ .footer-icon, .f{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 25%;
+}
+.footer-icon {
+  align-items: flex-start;
 }
 
 
 @media screen and (max-width: 576px) {
-
-    /* ..............navbaar for mobile ............ */
+  /* ..............navbaar for mobile ............ */
   .nav-imag img {
     width: 63px;
     height: 38px;
@@ -411,12 +459,12 @@
     align-items: center;
     padding: 0px 16px;
   }
-.nav-link-cart{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-link {
+  .nav-link-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-link {
     display: none;
   }
   .nav-link-cart {
@@ -429,151 +477,149 @@
     text-decoration: none;
   }
 
-
   /* .........bnner for mobile .......... */
 
   .banner {
     margin-top: 28px;
-    padding: 0px 0px
-}
-.banner-section {
+    padding: 0px 0px;
+  }
+  .banner-section {
     flex-direction: column-reverse;
-  justify-content: space-between;
-  gap: 28px;
-}
-.banner-content {
-  width: 100%;
-  padding: 0px 16px;
-}
-.banner-content h1{
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .banner-content {
+    width: 100%;
+    padding: 0px 16px;
+  }
+  .banner-content h1 {
     font-size: 1.5rem;
     margin-bottom: 6px;
-}
-.banner-content h1 span{
+  }
+  .banner-content h1 span {
     font-size: 1.5rem;
-}
-.banner-content p{
+  }
+  .banner-content p {
     font-size: 0.8rem;
-}
-.banner-image{
-  width: 100%;
-}
+  }
+  .banner-image {
+    width: 100%;
+  }
 
+  /* ...................plants section part for mobile............. */
 
-/* ...................plants section part for mobile............. */
+  .plants-section {
+    margin-top: 65px;
+    padding: 0px 16px;
+  }
+  .plants-content h1 {
+    font-size: 1.5rem;
+  }
+  .plants-content p {
+    font-size: 0.8rem;
+  }
 
-.plants-section {
-  margin-top: 65px;
-  padding: 0px 16px; 
-}
-.plants-content h1 {
-  font-size: 1.5rem;
-}
-.plants-content p{
-  font-size: 0.8rem;
-}
-
-.caard-contaainer {
+  .caard-contaainer {
     margin-top: 28px;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 28.5px;
-}
-.plants-card-container {
-  display: none;
-}
-.plants-card-container-m {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-.plants-card-price {
-  gap: 5px;
-}
-.plants-card-price p {
-  font-size: 1rem;
-}
-.plants-card-price h1 {
-  font-size: 1rem;
-}
-.btn {
+  }
+  .plants-card-container {
+    display: none;
+  }
+  .plants-card-container-m {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .plants-card-price {
+    gap: 5px;
+  }
+  .plants-card-price p {
+    font-size: 1rem;
+  }
+  .plants-card-price h1 {
+    font-size: 1rem;
+  }
+  .btn {
     padding: 19px 30.5px;
-}
+  }
 
-/* .................Flower and plants lover for mobile............ */
+  /* .................Flower and plants lover for mobile............ */
 
-.Plants-lover-section {
+  .Plants-lover-section {
     margin-top: 41.5px;
     padding: 0px 16px;
     justify-content: space-between;
     flex-direction: column;
     gap: 18px;
-}
-.lover-image {
-  width: 100%;
-}
+  }
+  .lover-image {
+    width: 100%;
+  }
 
-.plants-lover-content {
-  width: 100%;
-  padding: 0px 0px;
-}
-.plants-lover-content h1 {
-  font-size: 1.5rem;
-    margin-bottom: 16px;
-}
-
-.plants-lover-content ul{
-    padding-left: 22px;
-}
-.plants-lover-content ul>li {
-  font-size: 0.85rem;
-  margin-bottom: 20px;
-}
-
-/* ...............Deals section styles for mobile........... */
-
-.deals-section {
-  margin-top: 100px;
-  padding: 0px 16px;
-  margin-bottom: 40px;
-}
-.deals-content h1 {
+  .plants-lover-content {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .plants-lover-content h1 {
     font-size: 1.5rem;
-}
-.deals-content p {
+    margin-bottom: 16px;
+  }
+
+  .plants-lover-content ul {
+    padding-left: 22px;
+  }
+  .plants-lover-content ul > li {
     font-size: 0.85rem;
-}
-.deals-card-container {
+    margin-bottom: 20px;
+  }
+
+  /* ...............Deals section styles for mobile........... */
+
+  .deals-section {
+    margin-top: 100px;
+    padding: 0px 16px;
+    margin-bottom: 40px;
+  }
+  .deals-content h1 {
+    font-size: 1.5rem;
+  }
+  .deals-content p {
+    font-size: 0.85rem;
+  }
+  .deals-card-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
     margin-top: 51px;
-}
-.deals-card-left {
+  }
+  .deals-card-left {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 20px;
     width: 100%;
-}
-.deals-card-right {
+  }
+  .deals-card-right {
     width: 100%;
-}
+  }
 
-.deal-zabo {
+  .deal-zabo {
     padding: 60px 48.5px;
-}
-.deal-zabo h1 {
+  }
+  .deal-zabo h1 {
     font-size: 1.25rem;
-}
-.deal-zabo a {
+  }
+  .deal-zabo a {
     font-size: 1rem;
-}
+  }
 
-/* .............join section for mobile............ */
+  /* .............join section for mobile............ */
 
-.join-section {
+  .join-section {
     background-image: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -582,28 +628,55 @@
     padding-top: 110.5px;
     padding-bottom: 64px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 23px;
-}
-.join-section h1 {
+  }
+  .join-section h1 {
     font-size: 1.25rem;
-}
-.join-email {
+  }
+  .join-email {
     width: 75%;
-}
-.join-email input {
+  }
+  .join-email input {
     width: 70%;
-    padding:15.5px 0px 15.5px 20px;
+    padding: 15.5px 0px 15.5px 20px;
     color: rgba(0, 0, 0, 0.5);
-}
-.btn-j {
+  }
+  .btn-j {
     padding: 19px 12px;
     width: 30%;
+  }
 
+  /* ....................foooter section styles for mobile.............. */
+
+  .footer-section {
+  padding: 0px 16px;
+  /* width: 85%; */
 }
-
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-content {
+  width: 85%;
+}
+.footer-content img {
+  width: 45%;
+}
+.footer-content p {
+  font-size: 1rem;
+}
+ .footer-icon, .f{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  width: 70%;
+}
 
 
 }
