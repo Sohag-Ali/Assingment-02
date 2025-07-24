@@ -12,6 +12,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+
+}
+
 body {
   background-color: #f5f8ff;
 }
@@ -43,7 +49,10 @@ body {
     transform: rotate(360deg);
   }
 }
-
+.footer-link a:hover, a:hover {
+  color: rgb(195, 135, 62);
+  transition: color 0.3s;
+}
 .btn:hover,
 .btn-j:hover {
   background-color: #c84906;

@@ -19,19 +19,19 @@
     <header class="hi">
       <!-- ..............navbar...................... -->
 
-      <nav class="navbar container display-flex">
+      <nav id="na" class="navbar container display-flex">
         <div class="nav-imag">
           <img src="./assets/a6d38673-cf89-4047-9ba7-85a1151b5704.png" alt="" />
         </div>
 
         <div class="nav-link">
           <ul class="nav-link-icon display-flex inter">
-            <li><a class="link-1" href="">Home</a></li>
-            <li><a class="link-3" href="">Shop</a></li>
-            <li><a class="link-2" href="">About us</a></li>
+            <li><a class="link-1" href="#ban">Home</a></li>
+            <li><a class="link-3" href="#de">Shop</a></li>
+            <li><a class="link-2" href="#about">About us</a></li>
             <li>
               <i class="fa-solid fa-cart-shopping"></i
-              ><a class="link-4" href="">Cart($56)</a>
+              ><a class="link-4" href="#shop">Cart($56)</a>
             </li>
           </ul>
         </div>
@@ -40,7 +40,7 @@
           <ul class="nav-link-icon inter">
             <li>
               <i class="fa-solid fa-cart-shopping"></i
-              ><a class="link-4" href="">Cart($56)</a>
+              ><a class="link-4" href="shop">Cart($56)</a>
             </li>
           </ul>
         </div>
@@ -48,7 +48,7 @@
 
       <!-- .................banner section part.............. -->
 
-      <section class="banner container">
+      <section id="ban" class="banner container">
         <div class="banner-section display-flex">
           <div class="banner-content">
             <h1 class="noto-serif">ALWAYS <span>FRESH</span></h1>
@@ -72,7 +72,7 @@
     <main>
       <!-- ................Our plants section part ................. -->
 
-      <section class="plants-section container">
+      <section id="shop" class="plants-section container">
         <div class="plants-content">
           <h1 class="noto-serif"><span>Our</span> Plants</h1>
           <p class="secendary-gray inter">
@@ -318,7 +318,7 @@
 
       <!-- ...........Latest Deals section part............ -->
 
-      <section class="deals-section container">
+      <section id="de" class="deals-section container">
         <div class="deals-content">
           <h1 class="noto-serif"><span>Latest</span> Deals</h1>
           <p class="inter secendary-gray">
@@ -332,18 +332,18 @@
           <div class="deals-card-left">
             <div class="deal-bloom">
               <h1 class="noto-serif">60% Off | Bloom Plant</h1>
-              <a class="inter" href="">Shop Now</a>
+              <a class="inter" href="#shop">Shop Now</a>
             </div>
             <div class="deal-ana">
               <h1 class="noto-serif">30% Off | Ana Plant</h1>
-              <a class="inter" href="">Shop Now</a>
+              <a class="inter" href="#shop">Shop Now</a>
             </div>
           </div>
 
           <div class="deals-card-right">
             <div class="deal-zabo">
               <h1 class="noto-serif">30% Off | Ana Plant</h1>
-              <a class="inter" href="">Shop Now</a>
+              <a class="inter" href="#shop">Shop Now</a>
             </div>
           </div>
         </div>
@@ -361,7 +361,7 @@
       </section>
     </main>
 
-    <footer class="container footer-section">
+    <footer id="about" class="container footer-section">
       <section class="footer-container">
         <div class="footer-content">
           <img src="./assets/a6d38673-cf89-4047-9ba7-85a1151b5704.png" alt="" />
@@ -372,7 +372,7 @@
         </div>
 
         <div class="footer-link inter">
-          <a href="">Home</a>
+          <a href="#na">Home</a>
           <a href="">About Us</a>
           <a href="">Blog</a>
           <a href="">FAQ</a>
@@ -414,5 +414,6 @@
         alert("Thank You 😍💐🥀🌼")
       }
     </script>
+
   </body>
 </html>
