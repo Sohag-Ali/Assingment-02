@@ -1,6 +1,11 @@
+
+/* .........font-fmaily.............. */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ..................global styles.................. */
 
 * {
   margin: 0;
@@ -11,12 +16,13 @@ body {
   background-color: #f5f8ff;
 }
 
+/* .......................font fmmaily.................. */
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-
 .noto-serif {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -24,6 +30,7 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+/* ................share styles................. */
 .secendary-gray {
   color: rgba(0, 0, 0, 0.5);
 }
@@ -56,26 +63,32 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-link-icon {
   display: flex;
   align-items: center;
   gap: 48px;
 }
+
 .link-1 {
   color: #252432;
   font-weight: bold;
 }
+
 .link-2,
 .link-3 {
   color: #8987a1;
 }
+
 .link-4 {
   color: #000000;
   margin-left: 10px;
 }
+
 .nav-link li {
   list-style: none;
 }
+
 .nav-link a {
   text-decoration: none;
 }
@@ -86,30 +99,37 @@ body {
   margin-top: 109px;
   padding: 0px 32px;
 }
+
 .banner-section {
   justify-content: space-between;
   align-items: end;
 }
+
 .banner-content {
   width: 50%;
 }
+
 .banner-content h1 {
   color: #000000;
   font-weight: bold;
   font-size: 4.06rem;
   margin-bottom: 13px;
 }
+
 .banner-content h1 span {
   color: #e95a08;
   font-weight: bold;
   font-size: 4.06rem;
 }
+
 .banner-content p {
   font-size: 1.375rem;
 }
+
 .banner-image {
   width: 50%;
 }
+
 .banner-image img {
   width: 100%;
 }
@@ -120,22 +140,26 @@ body {
   margin-top: 120px;
   padding: 0px 32px;
 }
+
 .plants-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
+
 .plants-content h1 {
   font-size: 3.125rem;
   color: #000000;
   font-weight: bold;
   text-align: center;
 }
+
 .plants-content h1 span {
   color: #e95a08;
   text-align: center;
 }
+
 .plants-content p {
   width: 74%;
   text-align: center;
@@ -148,20 +172,24 @@ body {
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
 }
+
 .plants-card-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
 .plants-card-image img {
   width: 100%;
 }
+
 .plants-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 30px;
 }
+
 .plants-card-price {
   display: flex;
   justify-content: center;
@@ -169,22 +197,26 @@ body {
   align-items: center;
   gap: 20px;
 }
+
 .plants-card-price p {
   font-size: 1.375rem;
   color: #111111;
   font-weight: semi-bold;
   text-align: center;
 }
+
 .plants-card-price h1 {
   font-size: 1.375rem;
   color: #111111;
   font-weight: bold;
   text-align: center;
 }
+
 .btn-praimry {
   width: 100%;
   text-align: center;
 }
+
 .btn {
   background-color: #e95a08;
   color: #ffffff;
@@ -205,27 +237,33 @@ body {
   gap: 60px;
   position: relative;
 }
+
 .badge-image {
   position: absolute;
   top: -22%;
   left: 17%;
   transform: translateX(17%);
 }
+
 .badge-image img{
   width: 30%;
   height:30%;
 }
+
 .lover-image {
   width: 50%;
 }
+
 .lover-image img {
   width: 100%;
 }
+
 
 .plants-lover-content {
   width: 50%;
   padding: 38px 0px;
 }
+
 .plants-lover-content h1 {
   font-size: 3.125rem;
   font-weight: bold;
@@ -236,6 +274,7 @@ body {
 .plants-lover-content ul {
   padding-left: 32px;
 }
+
 .plants-lover-content ul > li {
   font-size: 1.375rem;
   margin-bottom: 20px;
@@ -248,21 +287,25 @@ body {
   padding: 0px 32px;
   margin-bottom: 120px;
 }
+
 .deals-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
+
 .deals-content h1 {
   font-size: 3.125rem;
   color: #000000;
   font-weight: bold;
   text-align: center;
 }
+
 .deals-content span {
   color: #e95a08;
 }
+
 .deals-content p {
   width: 74%;
   text-align: center;
@@ -276,6 +319,7 @@ body {
   gap: 28px;
   margin-top: 120px;
 }
+
 .deals-card-left {
   display: flex;
   justify-content: space-between;
@@ -283,6 +327,7 @@ body {
   gap: 25px;
   width: 35%;
 }
+
 .deals-card-right {
   width: 70%;
 }
@@ -302,17 +347,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .deal-bloom h1 {
   font-size: 1.25rem;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
 }
+
 .deal-bloom a {
   color: #ffffff;
   font-weight: semi-bold;
   text-align: center;
 }
+
 .deal-ana {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../assets/deal-ana.png);
@@ -328,12 +376,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .deal-ana h1 {
   font-size: 1.25rem;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
 }
+
 .deal-ana a {
   color: #ffffff;
   font-weight: semi-bold;
@@ -352,12 +402,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .deal-zabo h1 {
   font-size: 2.5rem;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
 }
+
 .deal-zabo a {
   color: #ffffff;
   font-weight: semi-bold;
@@ -382,12 +434,14 @@ body {
   align-items: center;
   gap: 23px;
 }
+
 .join-section h1 {
   font-size: 3.125rem;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
 }
+
 .join-email {
   display: flex;
   justify-content: center;
@@ -395,6 +449,7 @@ body {
   text-align: center;
   width: 40%;
 }
+
 .join-email input {
   width: 80%;
   padding: 19px 0px 19px 20px;
@@ -402,6 +457,7 @@ body {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.4);
 }
+
 .btn-j {
   background-color: #e95a08;
   color: #ffffff;
@@ -411,7 +467,6 @@ body {
   border: none;
   width: 20%;
   cursor: pointer;
-  
 }
 
 /* ..........foooter............ */
@@ -420,10 +475,12 @@ body {
   padding: 0px 32px;
   margin-bottom: 50px;
 }
+
 .footer-container {
   display: flex;
   justify-content: space-between;
 }
+
 .footer-content {
   display: flex;
   flex-direction: column;
@@ -431,9 +488,11 @@ body {
   gap: 16px;
   width: 25%;
 }
+
 .footer-content img {
   width: 37.5%;
 }
+
 .footer-content p {
   font-size: 1.125rem;
 }
@@ -444,6 +503,7 @@ body {
   justify-content: center;
   gap: 32px;
 }
+
 .footer-link a {
   text-decoration: none;
   color: #818794;
@@ -456,6 +516,7 @@ body {
   gap: 24px;
   width: 25%;
 }
+
 .footer-icon {
   align-items: flex-start;
 }
