@@ -31,6 +31,13 @@ body {
 }
 
 /* ................share styles................. */
+
+.btn:hover,
+.btn-j:hover {
+  background-color: #c84906;
+  transition: background-color 0.3s;
+}
+
 .secendary-gray {
   color: rgba(0, 0, 0, 0.5);
 }
