@@ -484,7 +484,7 @@ body {
   font-weight: semi-bold;
   text-decoration: none;
   border: none;
-  width: 20%;
+  /* width: 20%; */
   cursor: pointer;
 }
 
