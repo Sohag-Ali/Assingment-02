@@ -625,17 +625,8 @@ body {
 
   .join-section {
     background-image: url(../assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
     padding-top: 110.5px;
     padding-bottom: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 23px;
   }
   .join-section h1 {
     font-size: 1.25rem;
@@ -645,8 +636,6 @@ body {
   }
   .join-email input {
     width: 70%;
-    padding: 15.5px 0px 15.5px 20px;
-    color: rgba(0, 0, 0, 0.4);
   }
   .btn-j {
     padding: 19px 12px;
